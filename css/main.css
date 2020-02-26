@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+#nav-bar {
+  position: sticky;
+  top: 0;
+  right: 10%;
+  z-index: 10;
+}
+
+.section-1 {
+  background: url("../design-assets/bgk-header.png");
+  padding: 0 !important;
+  width: auto;
+  height: calc(100vw / 2.5);
+  background-size: cover;
+}
+
+.navbar-brand img {
+  height: 40px;
+  padding-left: 20px;
+}
+
+.navbar-nav li {
+  padding: 0 10px;
+}
+
+.navbar-nav li a {
+  color: white !important;
+  /* font-weight: 400; */
+}
+
+.company-name {
+  color: rgb(86, 247, 247);
+}
+
+/*------------------------Banner section------------------------*/
+
+#banner {
+  color: #fff;
+  padding-top: 5%;
+}
+
+.promo-title {
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 100px;
+}
+
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
+
+#button {
+  width: 135px;
+  margin: 0 auto;
+  border-color:aqua;
+  color: aqua;
+  border-radius: 0%;
+  height: min-content;
+}
+
+/*------------------------section-3------------------------*/
+
+.section-3 {
+  background: url("../design-assets/bgk-middle.png");
+  padding: 0 !important;
+  width: auto;
+  height: calc(100vw / 3);
+  background-size: cover;
+}
+
+.play-btn {
+  width: 45px;
+  margin: 250px 0px auto;
+}
+
+.col-centered p {
+  color: white;
+  width: max-content;
+  margin: 10px -55px;
+}
+
+.section-5 {
+    background: url("../design-assets/bgk-header.png");
+    padding: 0 !important;
+    width: auto;
+    height: calc(100vw / 2.5);
+    background-size: cover;
+  }
