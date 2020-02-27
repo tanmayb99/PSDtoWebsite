@@ -42,8 +42,6 @@ body {
   color: rgb(86, 247, 247);
 }
 
-/*------------------------Banner section------------------------*/
-
 #banner {
   color: #fff;
   padding-top: 5%;
@@ -63,7 +61,7 @@ body {
 #button {
   width: 135px;
   margin: 0 auto;
-  border-color:aqua;
+  border-color: aqua;
   color: aqua;
   border-radius: 0%;
   height: min-content;
@@ -91,9 +89,38 @@ body {
 }
 
 .section-5 {
-    background: url("../design-assets/bgk-header.png");
-    padding: 0 !important;
-    width: auto;
-    height: calc(100vw / 2.5);
-    background-size: cover;
-  }
+  background: url("../design-assets/bgk-header.png");
+  padding: 0 !important;
+  width: auto;
+  min-height: calc(100vw / 50);
+  background-size: cover;
+}
+
+.card-body {
+  color: black;
+}
+
+.section-6 {
+  padding: 0 !important;
+  width: auto;
+  height: calc(100vw/3);
+  background-size: cover;
+}
+
+#clients a img{
+  width: 105px;
+  height: 23px;
+}
+
+#clients .row {
+  margin: 45px -20px;
+}
+
+.section-7 {
+  background: url("../design-assets/bgk-footer.png");
+  padding: 0 !important;
+  width: auto;
+  min-height: calc(100vw/3);
+  background-size: cover;
+  color: white;
+}
